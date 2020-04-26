@@ -58,7 +58,7 @@ if(isset($_POST['submit']))
   header("Location:available.html");
    }
    else{
-     echo' <center><span style="color: white;text-align:center;"> error occured please try again</span>';
+     echo' <center><span style="color: white;text-align:center;"></span>';
      //echo"Error: " . $sq . "<br>" . $conn->error;
    }
   }
