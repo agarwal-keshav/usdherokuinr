@@ -13,7 +13,7 @@
           <li id = "help"><a href="contactus.html">Contact Us</a></li>
           <li><a href = "help.html">Help</a></li>
           <li><a href="userlogin.php">Login</a></li>
-          <li><a href="register.html">Signup</a></li>
+          <li><a href="index.php">Signup</a></li>
 
         </ul>
 
