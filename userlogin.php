@@ -38,9 +38,9 @@
         
 
 <?php
-$servername = "ctgplw90pifdso61.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username = "s44lc2ogaus73p5t";
-$password = "qw96rj8jjclp89p6";
+$servername ="ctgplw90pifdso61.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username ="s44lc2ogaus73p5t";
+$password ="qw96rj8jjclp89p6";
 $dbname = "jjeg2e3r4t8fydlj";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
