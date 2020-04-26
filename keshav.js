@@ -3,6 +3,6 @@ $(document).ready(function(){
         type: 'GET' ,
     }).done(function(res){
         $("#conv").html(res.rates["INR"]);
-        $("#reverse").html(1/(res.rates["INR"]));
+        $("#reverse").html((1/(res.rates["INR"])).toFixed(4));
     })
 });
