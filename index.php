@@ -51,7 +51,7 @@ if(isset($_POST['submit']))
      $upd1 = $conn->query($sql);
      if($upd1->num_rows>0)
      {
-      echo'<center><span style="color: white;text-align:center;"><h3>Account already exists. <a style="color:white" href="userlogin.php" > Sign in</a> <h3></span></center>';
+      echo'<center><span style="color: white;text-align:center;"><h3>Account already exists. <a style="color:white" href="userlogin.php" > Login</a> <h3></span></center>';
      }
      if ($upd){
    echo "<br/><br/><span>Data Inserted successfully...!!</span>";
