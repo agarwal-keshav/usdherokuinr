@@ -17,6 +17,8 @@
             <li><a href="userlogin.php">Logout</a></li>  
           </ul>
       </div>
+<p style="color:white;position: fixed;top: 0;right:300px;width: 300px;border: 3px solid #e95959;background-color: #e95959;border-radius: 10px;text-align: center;"id="logi" >you are logged in </p>
+
 </div>
 </div>
     <div  class="text-center" style="color:white;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,;font-size:3em;text-align:center; margin:4vh;margin-top:7vh;">
@@ -25,6 +27,12 @@
 <div  class="text-center" style="color:white;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,;font-size:3em;text-align:center; margin:4vh;">
     1 INR = <span id="reverse"></span> USD</div>
 </div>
- 
+<script>
+  const log = document.getElementById("logi");
+  setTimeout(() => {
+    log.style.display = 'none';
+  }, 2000);
+</script>
+
 </body>
 </html>
