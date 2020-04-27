@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head><title>userlogin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="userlogin.css">
- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
 
 </head>
 
@@ -29,18 +30,18 @@
 </div>
         <div style="border-radius: 5px;display: block;margin-left: auto;margin-top:100px;margin-right: auto;width: 30%;padding: 20px;";align="cenetr">
                  <form name="loginuser"action="" method="POST">
-                 <input type="email"  name="email" placeholder="Your Email..">
-                 <input type="password" name="pwd" placeholder="Your password..">
+                 <input type="email"  name="email" placeholder="Your Email.." required>
+                 <input type="password" name="pwd" placeholder="Your password.." required>
                  <input type="submit" value="Submit" name="submit">
-                 <p style="color:white;">New User?  Please <a  href="index.php">SignUp</a></p>
+                 <p style="color:white;text-align:center">New User?  Please <a style="color:white;" href="index.php">SignUp</a></p>
                 </form>
         </div>
         
 
 <?php
-$servername ="ctgplw90pifdso61.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username ="s44lc2ogaus73p5t";
-$password ="qw96rj8jjclp89p6";
+$servername = "ctgplw90pifdso61.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username = "s44lc2ogaus73p5t";
+$password = "qw96rj8jjclp89p6";
 $dbname = "jjeg2e3r4t8fydlj";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
